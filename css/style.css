@@ -1,0 +1,64 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 70px;
+}
+h1 {
+  font-family: Roboto;
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 23px;
+}
+footer {
+  color: #395599;
+  text-align: center;
+  line-height: 60px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+select {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  background-image: url("../images/world-clock.png");
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.city {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+.time {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.time small {
+  font-size: 15px;
+  line-height: 10px;
+}
+.date {
+  opacity: 0.5;
+  font-size: 15px;
+}
